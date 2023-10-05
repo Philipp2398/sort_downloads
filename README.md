@@ -19,7 +19,7 @@ A simple C program that automatically sorts and organizes the files in the `Down
 To compile the program:
 
 ```bash
-gcc organizer.c -o organizer
+gcc downloads_organizer.c -o downloads_organizer
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ gcc organizer.c -o organizer
 To run the program:
 
 ```bash
-./organizer
+./downloads_organizer
 ```
 
 Upon execution, the program will display a confirmation dialog asking the user if they want to clear the `downloads_backup` directory and proceed. If the user confirms, the program will execute and sort the files.
